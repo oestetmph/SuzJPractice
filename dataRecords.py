@@ -1,5 +1,4 @@
-petNames = {'horse': 'sas',
-            'fish': 'petals', }
+petNames = {'horse': 'sas', 'fish': 'petals', }
 
 numbers = ['1', '2']
 

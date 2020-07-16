@@ -9,4 +9,6 @@ def grade_average():
         grade_counter += 1
 
     average = total / grade_counter
+
     print(f'The average of numbers is {average}')
+
