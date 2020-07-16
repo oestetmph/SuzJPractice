@@ -1,3 +1,5 @@
+import lists
+
 number = 0
 
 for x in range(4):
@@ -5,4 +7,9 @@ for x in range(4):
     print('variable: ' + str(number))
     print('loop count x: ' + str(x))
 
-print('testing')
+print(lists.names['employee2'])
+
+lists.names.update({'employee4': 'baby weez'})
+
+for name in lists.names:
+    print(name + ': ' + lists.names[name])
