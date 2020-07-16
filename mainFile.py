@@ -1,5 +1,6 @@
-print('hey\n\n')
-items = ['this', 'is', 'a', 'list']
+number = 0
 
-for item in items:
-    print(item)
+for x in range(4):
+    number = number + 1
+    print('variable: ' + str(number))
+    print('loop count x: ' + str(x))
